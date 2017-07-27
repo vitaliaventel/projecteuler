@@ -17,6 +17,9 @@ public class Runner {
         //Largest polindrome product
         System.out.println("Task 4, result = " + LargestPalindromeProduct.findPalindrome());
 
+        //Smallest multiple
+        System.out.println("Task 5, result = " + SmallestMultiple.smallest());
+
         //Sum square difference
         System.out.println("Task 6, result = " + SumSquareDifference.difference(100));
 
