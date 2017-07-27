@@ -10,6 +10,9 @@ public class Runner {
 
         //Even Fibonacci sum
         System.out.println("Task 2, result = " + EvenFibonacci.sumOfEvenFibonacci(4000000));
+
+        //Sum square difference
+        System.out.println("Task 6, result = " + SumSquareDifference.difference(100));
     }
 
 }
