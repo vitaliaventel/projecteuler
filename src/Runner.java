@@ -13,6 +13,7 @@ public class Runner {
 
         //Sum square difference
         System.out.println("Task 6, result = " + SumSquareDifference.difference(100));
+
     }
 
 }
