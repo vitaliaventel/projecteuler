@@ -14,6 +14,9 @@ public class Runner {
         //Sum square difference
         System.out.println("Task 3, result = " + LargestPrimeFactor.findFactor(600851475143L));
 
+        //Largest polindrome product
+        System.out.println("Task 4, result = " + LargestPalindromeProduct.findPalindrome());
+
         //Sum square difference
         System.out.println("Task 6, result = " + SumSquareDifference.difference(100));
 
