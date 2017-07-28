@@ -29,6 +29,9 @@ public class Runner {
         //Largest product in a series
         System.out.println("Task 8, result = " + LargestProductSeries.product(13));
 
+        //Largest product in a series
+        System.out.println("Task 9, result = " + SpecialPythagoreanTriplet.pythagoreanProduct(1000));
+
     }
 
 }
