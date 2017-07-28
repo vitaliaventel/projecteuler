@@ -26,6 +26,9 @@ public class Runner {
         //N prime
         System.out.println("Task 7, result = " + Nprime.findPrime(10001));
 
+        //Largest product in a series
+        System.out.println("Task 8, result = " + LargestProductSeries.product(13));
+
     }
 
 }
