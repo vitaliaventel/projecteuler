@@ -14,7 +14,7 @@ public class Runner {
         //Sum square difference
         System.out.println("Task 3, result = " + LargestPrimeFactor.findFactor(600851475143L));
 
-        //Largest polindrome product
+        //Largest palindrome product
         System.out.println("Task 4, result = " + LargestPalindromeProduct.findPalindrome());
 
         //Smallest multiple
@@ -31,6 +31,9 @@ public class Runner {
 
         //Largest product in a series
         System.out.println("Task 9, result = " + SpecialPythagoreanTriplet.pythagoreanProduct(1000));
+
+        //Largest product in a series
+        System.out.println("Task 10, result = " + SummationOfPrimes.sumPrimes(2000000));
 
     }
 
