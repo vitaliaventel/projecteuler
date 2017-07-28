@@ -23,6 +23,9 @@ public class Runner {
         //Sum square difference
         System.out.println("Task 6, result = " + SumSquareDifference.difference(100));
 
+        //N prime
+        System.out.println("Task 7, result = " + Nprime.findPrime(10001));
+
     }
 
 }
