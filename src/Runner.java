@@ -38,6 +38,9 @@ public class Runner {
         //Largest product in a series
         System.out.println("Task 12, result = " + HighlyDivisible.findDivisbleValue(500));
 
+        //Largest product in a series
+        System.out.println("Task 13, result = " + LargeSum.sumOfDigits(10));
+
     }
 
 }
