@@ -36,6 +36,9 @@ public class Runner {
         System.out.println("Task 10, result = " + SummationOfPrimes.sumPrimes(2000000));
 
         //Largest product in a series
+        System.out.println("Task 11, result = " + LargestProductGrid.findMaxProduct(4));
+
+        //Largest product in a series
         System.out.println("Task 12, result = " + HighlyDivisible.findDivisbleValue(500));
 
         //Largest product in a series
