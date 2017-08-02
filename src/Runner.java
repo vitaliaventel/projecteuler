@@ -47,6 +47,9 @@ public class Runner {
         //Largest product in a series
         System.out.println("Task 14, result = " + CollatzProblem.findLongestCollatzNumber(1000000));
 
+        //Largest product in a series
+        System.out.println("Task 16, result = " + PowerDigit.sum(2, 1000));
+
     }
 
 }
