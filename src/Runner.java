@@ -50,6 +50,9 @@ public class Runner {
         //Largest product in a series
         System.out.println("Task 16, result = " + PowerDigit.sum(2, 1000));
 
+        //Largest product in a series
+        System.out.println("Task 17, result = " + NumberLetter.letterCount(1000));
+        System.out.println(126 % 100 % 10 );
     }
 
 }
