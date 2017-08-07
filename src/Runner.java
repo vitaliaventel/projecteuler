@@ -52,7 +52,9 @@ public class Runner {
 
         //Largest product in a series
         System.out.println("Task 17, result = " + NumberLetter.letterCount(1000));
-        System.out.println(126 % 100 % 10 );
+
+        //Factorial digit sum
+        System.out.println("Task 20, result = " + FactorialDigit.sum(100));
     }
 
 }
