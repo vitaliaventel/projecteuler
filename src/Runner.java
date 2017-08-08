@@ -55,6 +55,9 @@ public class Runner {
 
         //Factorial digit sum
         System.out.println("Task 20, result = " + FactorialDigit.sum(100));
+
+        //1000-digit Fibonacci number
+        System.out.println("Task 25, result = " + FibonacciNumber.indexOf(1000));
     }
 
 }
