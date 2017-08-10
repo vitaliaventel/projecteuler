@@ -61,12 +61,6 @@ public class Runner {
         //Largest product in a series
         System.out.println("Task 17, result = " + NumberLetter.letterCount(1000));
 
-        //Factorial digit sum
-        System.out.println("Task 20, result = " + FactorialDigit.sum(100));
-
-        //1000-digit Fibonacci number
-        System.out.println("Task 25, result = " + FibonacciNumber.indexOf(1000));
-
         //Sundays Counter
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         try {
@@ -76,6 +70,15 @@ public class Runner {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
+        //Factorial digit sum
+        System.out.println("Task 20, result = " + FactorialDigit.sum(100));
+
+        //Names score
+        System.out.println("Task 22, result = " + NameScore.allNamesTotal("additional_files/task22_names.txt"));
+
+        //1000-digit Fibonacci number
+        System.out.println("Task 25, result = " + FibonacciNumber.indexOf(1000));
     }
 
 }
