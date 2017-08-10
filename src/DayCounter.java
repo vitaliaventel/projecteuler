@@ -23,16 +23,17 @@ public class DayCounter {
     public static int sundaysBetweenDates(Date start, Date finish) {
         int sundays = 0;
         Calendar cal = Calendar.getInstance();
-        while (sundays != 171) {
+        while (!start.equals(finish)) {
             cal.setTime(start);
+            cal.set(Calendar.HOUR, 0);
+            cal.set(Calendar.MINUTE, 0);
+            cal.set(Calendar.SECOND, 0);
             if ((cal.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY) && (cal.get(Calendar.DAY_OF_MONTH) == 1)) {
-                System.out.println(cal.toString());
                 sundays++;
             }
             cal.add(Calendar.DATE, 1);
             start = cal.getTime();
         }
-        System.out.println(cal.toString());
         return sundays;
     }
 }
