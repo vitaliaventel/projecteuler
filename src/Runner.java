@@ -74,6 +74,9 @@ public class Runner {
         //Factorial digit sum
         System.out.println("Task 20, result = " + FactorialDigit.sum(100));
 
+        //Amicable numbers
+        System.out.println("Task 21, result = " + AmicableNumber.amicable(10000));
+
         //Names score
         System.out.println("Task 22, result = " + NameScore.allNamesTotal("additional_files/task22_names.txt"));
 
