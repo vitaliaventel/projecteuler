@@ -83,6 +83,9 @@ public class Runner {
         //Names score
         System.out.println("Task 22, result = " + NameScore.allNamesTotal("additional_files/task22_names.txt"));
 
+        //Non-abundant sums
+        System.out.println("Task 23, result = " + NonAbundant.sumAll(28123 ));
+
         //1000-digit Fibonacci number
         System.out.println("Task 25, result = " + FibonacciNumber.indexOf(1000));
     }
