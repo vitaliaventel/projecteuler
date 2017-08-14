@@ -61,6 +61,9 @@ public class Runner {
         //Largest product in a series
         System.out.println("Task 17, result = " + NumberLetter.letterCount(1000));
 
+        //Max path sum I and II
+        System.out.println("Task 18 / 67, result = " + TriangleMaxPath.calculate("additional_files/task18_triangle.txt"));
+
         //Sundays Counter
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         try {
