@@ -88,6 +88,9 @@ public class Runner {
 
         //1000-digit Fibonacci number
         System.out.println("Task 25, result = " + FibonacciNumber.indexOf(1000));
+
+        //Self powers
+        System.out.println("Task 48, result = " + SelfPower.lastTenDigits(1000));
     }
 
 }
