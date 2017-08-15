@@ -19,13 +19,13 @@ public class NonAbundant {
         List<Integer> abundantList = new ArrayList<>();
         List<Integer> nonAbundantList = new ArrayList<>();
         for (int i = 0; i < limit; i++) {
-            if (abundant(i)) {
+            if (isAbundant(i)) {
                 abundantList.add(i);
             }
         }
         System.out.println(abundantList);
         for (int i = 0; i < limit; i++) {
-            if (checkForSum(i, abundantList)) {
+            if (isNonAbundant(i, abundantList)) {
                 nonAbundantList.add(i);
             }
         }
@@ -35,7 +35,8 @@ public class NonAbundant {
         return result;
     }
 
-    private static boolean checkForSum(int value, List<Integer> abundantList) {
+    //TODO update isNonAbundant
+    private static boolean isNonAbundant(int value, List<Integer> abundantList) {
         int sum = 0;
         for (Integer i : abundantList) {
             if (value % i == 0) {
@@ -48,7 +49,7 @@ public class NonAbundant {
         return true;
     }
 
-    private static boolean abundant(int value) {
+    private static boolean isAbundant(int value) {
         int sum = 0;
         for (int i = 1; i < value; i++) {
             if (value % i == 0) {
